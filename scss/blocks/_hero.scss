@@ -1,0 +1,71 @@
+     /* HERO SECTION START */
+     .hero-section__img{
+        width: 150px;
+        height: 223px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .hero-section__bg{
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .section__text-box{
+        max-width: 290px;
+        width: 100%;
+    }
+    .hero-section__title{
+        font-family: var(--main-font-family);
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: -0.246154px;
+        color: #36536B;
+    }
+    .hero-section__form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .hero-section__input-email{
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 16px;
+        padding-top: 16px;
+        padding-bottom: 14px;
+        padding-left: 27px;
+        border: none;
+        background-color: #FBFCFE;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+    }
+    .hero-section__form-btn{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: var( --wather-white);
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 24px;
+        padding:16px 46px 14px 50px;
+        background-color: var(--dark-pink);
+        border-radius: 24px;
+        border: none;
+        cursor: pointer;
+    }
+    .hero-section__form-btn:hover{
+        background-color: var(--charm-pink);
+    }
+    .hero-section__more{
+        display: block;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: var(--juan-blue);
+        text-align: center;
+    }
+    
+    /* HERO SECTION FINISH */
