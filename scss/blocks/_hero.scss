@@ -24,9 +24,9 @@
         color: #36536B;
     }
     .hero-section__form{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .hero-section__input-email{
         max-width: 300px;
@@ -67,5 +67,55 @@
         color: var(--juan-blue);
         text-align: center;
     }
-    
+    @include mobile-first (767px){
+        .hero-section__form{
+            position: relative;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .hero-section__input-email{
+            max-width: 445px;
+        }
+        .hero-section__form-btn{
+            position: absolute;
+            top: 0;
+            right: 120px;
+            padding: 15px 20px;
+            text-align: center;
+            max-width: 173px;
+        }
+    }
+    @include mobile-first (992px){
+        .hero-section__bg{
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+        }
+        .hero-section__img{
+            margin-right: 0;
+            margin-left: auto;
+            width: 280px;
+            height: 465px;
+        }
+        .hero-section__text-box{
+            width: 546px;
+        }
+        .hero-section__title{
+            text-align: start;
+            font-size: 67px;
+            line-height: 72px;
+
+        }
+        .hero-section__form{
+            width: 445px;
+            justify-content: flex-start;
+        }
+        .hero-section__form-btn{
+            right: 0;
+        }
+        .hero-section__more{
+            text-align: start;
+        }
+        
+    }
     /* HERO SECTION FINISH */

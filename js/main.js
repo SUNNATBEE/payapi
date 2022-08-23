@@ -1,6 +1,6 @@
-var ElOpenBtn = document.querySelector(".site-header__burger-btn");
-var ElCloseBtn = document.querySelector(".site-header__reset-btn");
-var siteNavbar = document.querySelector(".site-header__navbar");
+var ElOpenBtn = document.querySelector(".site-header__burger");
+var ElCloseBtn = document.querySelector(".site-header-close");
+var siteNavbar = document.querySelector(".site-nav__wrapper");
 
 ElOpenBtn.addEventListener("click", function () {
   siteNavbar.classList.add("shownav");
