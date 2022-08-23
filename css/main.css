@@ -694,7 +694,16 @@ a {
   text-align: center;
 }
 
+@media only screen and (min-width: 600px) {
+  .hero-section__img {
+    width: 200px;
+    height: 280px;
+  }
+}
 @media only screen and (min-width: 767px) {
+  .hero-header-wrapper {
+    background-position: center -470px;
+  }
   .hero-section__form {
     position: relative;
     -webkit-box-orient: horizontal;
@@ -704,6 +713,10 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .hero-section__img {
+    width: 200px;
+    height: 279px;
   }
   .hero-section__input-email {
     max-width: 445px;
@@ -718,6 +731,9 @@ a {
   }
 }
 @media only screen and (min-width: 992px) {
+  .hero-header-wrapper {
+    background-position: 565px -355px;
+  }
   .hero-section__bg {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -755,6 +771,11 @@ a {
   }
   .hero-section__more {
     text-align: start;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .hero-header-wrapper {
+    background-position: 813px -340px;
   }
 }
 /* HERO SECTION FINISH *//*# sourceMappingURL=main.css.map */
