@@ -1,5 +1,6 @@
 
 .hero-header-wrapper--position {
+  background-position: 69px -610px;
 }
 
 .contact-hero {
@@ -216,6 +217,10 @@
 }
 
 @include mobile-first(700px) {
+  
+  .hero-header-wrapper--position {
+    background-position: 463px -532px;
+  }
   .contact-hero__title{
     max-width: 573px;
     font-size: 48px;
@@ -257,6 +262,9 @@
   
 }
 @include mobile-first (1000px) {
+  .hero-header-wrapper--position {
+    background-position: 582px -532px;
+  }
   .contact-hero__title{
     max-width: 730px;
     font-size: 56px;
