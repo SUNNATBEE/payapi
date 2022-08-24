@@ -87,18 +87,12 @@ label::before{
     margin-left: auto;
 }
 
-
-
 .price-input--one:checked ~ .label-one::before{
     background-image: url("../images/check-icon.svg");
 }
 .price-input--one:checked ~ .label-one{
     color: #36536B;
 }
-
-
-
-
 
 .price-input--two:checked ~ .label-two::before{
     background-image: url("../images/check-icon.svg");
@@ -107,16 +101,12 @@ label::before{
     color: #36536B;
 }
 
-
-
 .price-input--three:checked ~ .label-three::before{
     background-image: url("../images/check-icon.svg");
 }
 .price-input--three:checked ~ .label-three{
     color: #36536B;
 }
-
-
 
 .price-input--four:checked ~ .label-four::before{
     background-image: url("../images/check-icon.svg");
@@ -145,6 +135,89 @@ label::before{
 .price-input--seven:checked ~ .label-seven{
     color: #36536B;
 }
+.price-input--eight:checked ~ .label-eight::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--eight:checked ~ .label-eight{
+    color: #36536B;
+}
+.price-input--nine:checked ~ .label-nine::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--nine:checked ~ .label-nine{
+    color: #36536B;
+}
+.price-input--ten:checked ~ .label-ten::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--ten:checked ~ .label-ten{
+    color: #36536B;
+}
+.price-input--eleven:checked ~ .label-eleven::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--eleven:checked ~ .label-eleven{
+    color: #36536B;
+}
+.price-input--twelve:checked ~ .label-twelve::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--twelve:checked ~ .label-twelve{
+    color: #36536B;
+}
+.price-input--13:checked ~ .label-13::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--13:checked ~ .label-13{
+    color: #36536B;
+}
+.price-input--14:checked ~ .label-14::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--14:checked ~ .label-14{
+    color: #36536B;
+}
+.price-input--15:checked ~ .label-15::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--15:checked ~ .label-15{
+    color: #36536B;
+}
+.price-input--16:checked ~ .label-16::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--16:checked ~ .label-16{
+    color: #36536B;
+}
+.price-input--17:checked ~ .label-17::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--17:checked ~ .label-17{
+    color: #36536B;
+}
+.price-input--18:checked ~ .label-18::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--18:checked ~ .label-18{
+    color: #36536B;
+}.price-input--19:checked ~ .label-19::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--19:checked ~ .label-19{
+    color: #36536B;
+}.price-input--20:checked ~ .label-20::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--20:checked ~ .label-20{
+    color: #36536B;
+}
+.price-input--21:checked ~ .label-21::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--21:checked ~ .label-21{
+    color: #36536B;
+}
+
 
 .hero-pricing__link {
     display: block;
