@@ -1,4 +1,7 @@
      /* HERO SECTION START */
+     .hero-section{
+        padding-bottom: 79px;
+     }
      .hero-section__img{
         width: 150px;
         height: 223px;
@@ -36,9 +39,13 @@
         padding-bottom: 14px;
         padding-left: 27px;
         border: none;
+        // border: 1px solid transparent ;
         background-color: #FBFCFE;
         box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
         border-radius: 24px;
+    }
+    .hero-section__input-email:not(:placeholder-shown):not(:focus):invalid{
+        // border: 1px solid red ;
     }
     .hero-section__form-btn{
         font-weight: 700;
@@ -100,7 +107,7 @@
     }
     @include mobile-first (992px){
         .hero-header-wrapper{
-              background-position: 565px -355px;
+            background-position: calc(50% + 20px)calc(49% - 377px);
         }
         .hero-section__bg{
             display: flex;
@@ -132,12 +139,12 @@
         .hero-section__more{
             text-align: start;
         }
-         
+        
     }
-
+    
     @include mobile-first (1200px){
         .hero-header-wrapper{
-            background-position: 813px -340px;
+            background-position: calc(50% + 460px)calc(50% - 230px);
         }
     }
     /* HERO SECTION FINISH */
