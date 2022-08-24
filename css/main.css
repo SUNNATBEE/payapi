@@ -786,6 +786,8 @@ a {
   }
 }
 /* HERO SECTION FINISH */
+
+/* Company section start */
 .copmpany {
   background-image: url("../images/Bitmap.svg");
   background-repeat: no-repeat;
@@ -924,6 +926,8 @@ a {
     margin-bottom: 0;
   }
 }
+/* Company section finish */
+/* information section start */
 .information {
   padding: 80px 24px;
 }
@@ -1125,6 +1129,7 @@ a {
             align-items: center;
   }
 }
+/* information section finish */
 .article__users {
   text-align: center;
 }
