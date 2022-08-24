@@ -8,9 +8,10 @@
     display: inline-block;
     background-repeat: no-repeat;
 }
+
 @mixin mobile-first ($min) {
     @media only screen and (min-width:$min){
-        @content
+    @content;
     }
     
 }

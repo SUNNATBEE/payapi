@@ -1,0 +1,229 @@
+
+
+
+.hero-header-wrapper-pricing{
+    background-image: url("../../images/Bitmap.svg");
+    background-repeat: no-repeat;
+    background-position: 200px -550px;
+    
+}
+
+
+.hero-pricing__title {
+    font-family: var(--dm-displey-font-family);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 36px;
+    text-align: center;
+    color: #36536B;
+    
+    
+}
+.hero-pricing__text {
+    font-family: var(--dm-displey-font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #BA4270;
+    
+}
+.hero-pricing__text--span{
+    display: none;
+    width: 223px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #6C8294;
+}
+.hero-pricing__list {
+    @include list-unstyle;
+    
+}
+
+.pricing-price {
+    margin-top: 84px;
+    margin-bottom: 24px;
+    font-family: var(--dm-displey-font-family);
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 72px;
+    text-align: center;
+    color: #36536B;
+    
+}
+.price-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 39px;
+    padding: 24px 0px;
+    border-top:1px solid #36536b35 ;
+    border-bottom:1px solid #36536b35 ;
+}
+input{
+    appearance: none;
+    
+}
+label{
+    font-weight: 400;
+    line-height: 28px;
+    list-style: none;
+    margin-bottom: 10px;
+    color: #36536b35;
+    
+}
+label::before{
+    margin-right: 24px;
+    width: 15px;
+    height: 10px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 15px 10px;
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.price-input--one:checked ~ .label-one::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--one:checked ~ .label-one{
+    color: #36536B;
+}
+
+
+
+
+
+.price-input--two:checked ~ .label-two::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--two:checked ~ .label-two{
+    color: #36536B;
+}
+
+
+
+.price-input--three:checked ~ .label-three::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--three:checked ~ .label-three{
+    color: #36536B;
+}
+
+
+
+.price-input--four:checked ~ .label-four::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--four:checked ~ .label-four{
+    color: #36536B;
+}
+
+.price-input--five:checked ~ .label-five::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--five:checked ~ .label-five{
+    color: #36536B;
+}
+
+.price-input--six:checked ~ .label-six::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--six:checked ~ .label-six{
+    color: #36536B;
+}
+
+.price-input--seven:checked ~ .label-seven::before{
+    background-image: url("../images/check-icon.svg");
+}
+.price-input--seven:checked ~ .label-seven{
+    color: #36536B;
+}
+
+
+
+.hero-pricing__link {
+    display: block;
+    max-width: 173px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    padding: 15px 28px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #36536B;
+    border: 1px solid #36536B;
+    border-radius: 24px;
+    transition: .6s;
+    
+}
+.hero-pricing__link:hover{
+    background-color: #36536B;
+    color: #FBFCFE;
+}
+
+@include mobile-first (767px){
+    .hero-header-wrapper-pricing{
+        background-image: url("../../images/Bitmap.svg");
+        background-repeat: no-repeat;
+        background-position: 400px -550px;
+        
+    }
+    
+    .hero-pricing__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero-pricing__text--span{
+        display: block;
+    }
+    
+    
+}
+@include mobile-first (1000px){
+    .hero-header-wrapper-pricing{
+        background-image: url("../../images/Bitmap.svg");
+        background-repeat: no-repeat;
+        background-position: 800px -550px;
+        
+    }
+
+
+    .hero-pricing__title{
+        text-align: left;
+        font-size: 56px;
+    }
+    .hero-pricing__item:not(:last-child){
+        margin-right: 20px;
+    }
+    
+    .hero-pricing__text{
+        text-align: left;
+    }
+    .hero-pricing__text--span{
+        width: auto;
+        text-align: left;
+    }
+    .pricing-price{
+        text-align: left;
+    }
+    .input-wrapper{
+        margin: 0;
+        margin-right: auto;
+    }
+    .hero-pricing__link{
+        margin-left: 0;
+    }
+}
