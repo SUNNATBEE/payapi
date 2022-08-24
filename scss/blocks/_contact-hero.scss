@@ -128,6 +128,10 @@
   border: 1px solid #36536B;
   border-radius: 24px;
 }
+.contact-form__btn:hover{
+  background-color: #36536B;
+  color: #FBFCFE;
+}
 .contact-hero__inner {
 }
 .contact-hero__inner-title {
@@ -297,5 +301,9 @@
   }
   .contact-hero__form-btn{
     right: 0;
+  }
+  .contact-hero__inner-title{
+    max-width: 445px;
+    text-align: start;
   }
 }
