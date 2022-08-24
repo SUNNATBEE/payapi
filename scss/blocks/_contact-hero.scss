@@ -153,13 +153,6 @@
   grid-template-columns: repeat(2, auto);
   grid-row-gap: 43px;
 }
-.contact-hero__item {
-}
-
-.contact-hero__item-link {
-}
-.contact-hero__img {
-}
 .contact-hero__form-bottom {
   margin-bottom: 80px;
 }
@@ -268,6 +261,10 @@
 @include mobile-first (1000px) {
   .hero-header-wrapper--position {
     background-position: 582px -532px;
+  }
+  .contact-hero__inner-title{
+    text-align: start;
+    font-size: 31px;
   }
   .contact-hero__title{
     max-width: 730px;
