@@ -505,6 +505,8 @@ a {
   max-width: 300px;
   width: 100%;
   background-color: var(--mirage-blue);
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
   -webkit-transform: translateX(200%);
           transform: translateX(200%);
 }
