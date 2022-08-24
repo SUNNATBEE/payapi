@@ -1,16 +1,12 @@
-:root{
-    --main-font-family:"Public Sans", "Arial", sans-serif;
-    --dm-displey-font-family: "DM Serif Display", "Times New Roman", serif;
-    --main-font-size:15px;
-    --main-bg-color : #fff; 
-    --dark-pink:#ba4270; 
-    --wather-white: #fbfcfe; 
-    --sanjun-blue : #36536b; 
-    --mirage-blue:#1b262f;
-    --charm-pink:#da6d97;
-    --juan-blue:#6c8294;
-}
 
+
+
+.hero-header-wrapper-pricing{
+    background-image: url("../../images/Bitmap.svg");
+    background-repeat: no-repeat;
+    background-position: 200px -550px;
+    
+}
 
 
 .hero-pricing__title {
@@ -177,6 +173,12 @@ label::before{
 }
 
 @include mobile-first (767px){
+    .hero-header-wrapper-pricing{
+        background-image: url("../../images/Bitmap.svg");
+        background-repeat: no-repeat;
+        background-position: 400px -550px;
+        
+    }
     
     .hero-pricing__list{
         display: flex;
@@ -191,6 +193,14 @@ label::before{
     
 }
 @include mobile-first (1000px){
+    .hero-header-wrapper-pricing{
+        background-image: url("../../images/Bitmap.svg");
+        background-repeat: no-repeat;
+        background-position: 800px -550px;
+        
+    }
+
+
     .hero-pricing__title{
         text-align: left;
         font-size: 56px;
