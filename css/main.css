@@ -945,6 +945,17 @@ a {
   opacity: 1;
 }
 
+
+
+.contact-form__textarea:not(:-moz-placeholder-shown):not(:focus):invalid + .contact-form__invalid {
+  opacity: 1;
+}
+
+.contact-form__textarea:not(:-ms-input-placeholder):not(:focus):invalid + .contact-form__invalid {
+  opacity: 1;
+}
+
+
 .contact-form__textarea:not(:placeholder-shown):not(:focus):invalid + .contact-form__invalid {
   opacity: 1;
 }
@@ -1138,6 +1149,9 @@ a {
   }
 }
 
+
+
+
 @media only screen and (min-width: 1000px) {
   .hero-header-wrapper--position {
     background-position: 582px -532px;
@@ -1272,7 +1286,7 @@ input {
           appearance: none;
 }
 
-label {
+.label-all {
   font-weight: 400;
   line-height: 28px;
   list-style: none;
@@ -1280,7 +1294,11 @@ label {
   color: #36536b35;
 }
 
+
 label::before {
+
+.label-all::before {
+
   margin-right: 24px;
   width: 15px;
   height: 10px;
